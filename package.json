@@ -4,7 +4,9 @@
   "description": "A MochaJS starter package from https://autom8able.com",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:awesome": "mocha --reporter mochawesome || true",
+    "open:report": "open mochawesome-report/mochawesome.html"
   },
   "keywords": [],
   "author": "Mitch Allen (mitchallen.com)",
